@@ -104,6 +104,7 @@ $ git clone -b develop https://github.com/mingdaa/mingdaa.github.io.git
 在Git Bash继续键入命令：  
 
 ```
+$ cd mingdaa.github.io
 $ mkdir hexo # 再创建一个hexo文件夹，安装hexo
 $ cd hexo
 $ npm install -g hexo

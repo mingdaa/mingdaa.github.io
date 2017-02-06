@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-06T08:49:26.262Z</updated>
+  <updated>2017-02-06T09:44:57.711Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/02/05/Hexo+Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2017/02/05/Hexo+Github搭建个人博客/</id>
     <published>2017-02-05T12:30:18.000Z</published>
-    <updated>2017-02-06T08:49:26.262Z</updated>
+    <updated>2017-02-06T09:44:57.711Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Hexo-Github搭建个人静态博客"><a href="#Hexo-Github搭建个人静态博客" class="headerlink" title="Hexo + Github搭建个人静态博客"></a>Hexo + Github搭建个人静态博客</h1><ul>
 <li>hexo出自台湾大学生tommy351之手，是一个基于Node.js的静态博客程序，其编译上百篇文字只需要几秒。hexo生成的静态网页可以直接放到GitHub Pages，BAE，SAE等平台上。</li>
@@ -92,7 +92,7 @@
 <li><strong>配置git仓库路径</strong></li>
 </ul>
 <p>修改Hexo根目录下的_config.yml配置文件，找到并配置：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># Deployment</div><div class="line">## Docs: https://hexo.io/docs/deployment.html</div><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repo: https://git@github.com:mingdaa/mingdaa.github.io.git #仓库路径https地址</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># Deployment</div><div class="line">## Docs: https://hexo.io/docs/deployment.html</div><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repo: git@github.com:mingdaa/mingdaa.github.io.git #仓库路径https地址</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
 <ul>
 <li><strong>完成部署</strong><br>最后一步，部署到github上，键入指令：</li>
 </ul>
